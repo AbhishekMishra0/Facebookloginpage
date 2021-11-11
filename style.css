@@ -1,0 +1,175 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#174c81,#191da7,#3d36aa);
+    border-bottom: 1px solid #6726bd;
+}
+.logo{
+    height: 60px;
+    margin-left: 150px;
+    margin-top:20px
+}
+
+.loginform{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top:20px;
+    font-family: Verdana;
+}
+.loginform .email,.loginform .password{
+    font-size: 14px;
+    padding-bottom: 2px;
+   
+
+    }
+    .loginform .email input{
+        margin-right:10px  ;
+    }
+.loginform .email input,.loginform .password input{
+height: 23px;
+width: 170px;
+padding-left: 5px;
+border:1.5px solid black ;
+outline: none;
+margin-bottom: 8px;
+font-size: 12px;
+}
+.loginform .email .font,.loginform .password .font{
+    font-size: 13px;
+    padding-bottom: 5px;    
+}
+.loginbtn{
+cursor: pointer;
+height: 23px;
+width: 50px;
+border-radius: 2px;
+background: #80abd6;
+outline: none;
+margin-top: 20px;
+margin-left: 10px;
+}
+.loginbtn:hover{
+background:#5d6ad1;
+}
+section{
+    height: 620px;
+    width: 100%;
+    top: 800px;
+    background: linear-gradient(#bfbfe6,#eff1f6,#bfbfe6);
+    font-family: Verdana;
+}
+.logo_body{
+    position: absolute;
+    left:15%;
+    top: 20%;}
+.logo_body .logobody{
+    height: 40%;
+    width: 344px;
+    
+}
+.logo_body .thanks{
+    font-family: Arial;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.logo_body .hope{
+    color: #417cb6;
+    margin-left: 30px;    
+}
+.signup{
+    font-family: Arial;
+    position: absolute;
+    left:56%;
+}
+.signup .create{
+font-size: 35px;
+margin: 25px 0;
+}
+.signup .free{
+    font-style: oblique;
+    margin: -20px 5px;
+
+}
+.signup .signupform input{
+    height:30px;
+    width: 190px;
+    margin-top:20px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: solid silver 1px;
+    outline: none;
+    border-radius: px;
+}
+.signup .signupform .lastname{
+    margin-left: 15px;
+}
+.signup .signupform .password,.signup .signupform .email,.signup .signupform .cpassword{
+    width: 360px;
+}
+.signup .signupform .bdy{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.signup .signupform .birth_date{
+    margin-top: 15px;
+
+}
+.signup .signupform .month,.signup .signupform .day,.signup .signupform .year{
+margin-left: -5px;
+
+}
+.signup .signupform .brth_hint{
+margin-top: -29px;
+font-size: 14px;
+padding-left: 179px;
+width: 180px;
+text-decoration: none;
+}
+.signup .signupform a:hover{
+    text-decoration: none;
+}
+.signup .signupform a:hover{
+    text-decoration: underline;
+}
+.signup .signupform input[type="radio"]{
+   height: 15px;
+   margin-left: -50;
+   margin-top: 30px;
+}
+.signup .signupform input[value="female"]{
+    margin-left: -100px;
+}
+.signup .signupform .male{
+    margin-left: 45px;
+    margin-top: -20px;
+}
+.signup .signupform .female{
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.signup .signupform .end{
+    width: 350px;
+    color: rgb(94, 83, 83);
+    margin-top: 10px;
+    font-size: 14px;
+}
+.signup .signupform .butt{
+    height: 35px;
+    width: 150px;
+    margin-top: 20px;
+    border: 2px solid #272e29;
+    font-weight: 600;
+    font-size: 20px;
+    color: #eff1f6;
+    cursor: pointer;
+    background:linear-gradient(#82db97,#2b743c,#265a32) ;
+
+}
